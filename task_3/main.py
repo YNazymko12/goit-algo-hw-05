@@ -21,7 +21,7 @@ article_1 = read_file(article_1_path)
 article_2 = read_file(article_2_path)
 
 # Підрядки для тестування
-patterns = ["алгоритмів", "неіснуючий підрядок для тестування"]
+patterns = ["Стаття", "Неіснуючий підрядок для тестування"]
 
 # Функція для вимірювання часу виконання алгоритмів
 def measure_time(algorithm, text, pattern):
